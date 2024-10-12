@@ -1,4 +1,4 @@
-// TODO: hiding the webhook URL in cloudflare /functions
+// TODO: hiding the webhook URL
 const webhookURL = "https://discord.com/api/webhooks/";
 const messageInput = document.getElementById("message-input");
 
