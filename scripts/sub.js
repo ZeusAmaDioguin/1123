@@ -20,7 +20,10 @@
 // 	}
 // };
 
-// lazy loading
+// Lấy tất cả các thẻ <img> trên trang
+var images = document.getElementsByTagName("img");
+
+// Duyệt qua từng thẻ <img> và thêm thuộc tính loading="lazy"
 for (var i = 0; i < images.length; i++) {
 	images[i].setAttribute("loading", "lazy");
 }
